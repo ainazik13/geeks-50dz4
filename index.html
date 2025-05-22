@@ -2,9 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>dz4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+    <div class="image-side"></div>
+    <div class="request-side">
+      <form>
+        <h2>Leave a request</h2>
+
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@company.com" />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Your password" />
+
+        <div class="gender">
+          <label>Gender:</label>
+          <input type="radio" name="gender" id="woman" />
+          <label for="woman">Woman</label>
+          <input type="radio" name="gender" id="man" />
+          <label for="man">Man</label>
+        </div>
+
+        <input type="file" id="file" />
+
+        <div class="checkbox">
+          <input type="checkbox" id="policy" />
+          <label for="policy">You agree to our friendly privacy policy.</label>
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+</div>
 
 </body>
 </html>
